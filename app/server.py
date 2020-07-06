@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/file/d/1-NiI01HQU7DXbakfxjOzV0oLOHmVEyTu/view?usp=sharing'
+export_file_name = 'trained_model_cat.pth'
 
-classes = ['black', 'grizzly', 'teddys']
+classes =  ['abyssinian','bengal','birman','bombay','british_shorthair','egyptian_mau','maine_coon','persian','ragdoll','russian_blue','siamese','sphynx']
 path = Path(__file__).parent
 
 app = Starlette()
